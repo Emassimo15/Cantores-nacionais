@@ -1,0 +1,72 @@
+/*parte principal do site*/
+main#main-doc{
+  width:559px;
+  float:right;
+  border-left:2px solid gray;
+  margin-top:-30px;
+  font-family:'Open Sans',Arial, sans-serif;
+  padding-top:20px;
+  padding-left:30px;
+}
+
+/*cor da fonte*/
+p,ul{
+  color:#545454;
+}
+
+/*Barra de navegação*/
+nav#navbar{
+  font-family:arial;
+  height: 100%;
+   position:fixed;
+  width:300px;
+  top:0px;
+  left:0px;
+}
+
+/*barra de rolagem*/
+#navbar ul{
+  list-style:none;
+  overflow-x:hidden;
+  height:83%;
+}
+
+/*links*/
+#navbar a{
+  text-decoration:none;
+  display:block; 
+  border-top:1px solid black;
+  margin-left:-40px;
+  margin-bottom:-7px;
+  width:280px;
+  padding:15px 28px 20px;
+  text-align:left;
+}
+
+/*borda do útlimo link*/
+a#ref{
+ border-bottom:1px solid black;
+  padding:15px 28px 20px;
+  
+}
+
+/*título da barra de navegação*/
+header#nav-tit{
+  font-size:17px;
+  text-align:center;
+  font-weight:thin;
+}
+
+/*cor do link*/
+a:link{
+  color:#545454;
+}
+
+/*cor do link após ser clicado*/
+a:visited{
+  color:#545454;
+}
+
+li.main-li{
+  margin-bottom:10px;
+}
